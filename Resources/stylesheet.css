@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background-color: #3A3D39;
+}
+
+nav {
+    float: top;
+    list-style-type: none;
+    display: flex;
+    border-bottom: 1px solid #3C5E74;
+    width: 100%;
+    justify-content: flex-end;
+    z-index: 1;
+    align-content: center;
+    background-color: #E6E5E8;
+}
+
+.namePlate {
+    margin-left: 1rem;
+    color: #3C5E74
+}
+
+.links {
+    margin-left: auto;
+    margin-right: 1rem;
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 33%;
+}
+
+.links li {
+    align-self: center;
+}
+
+a:link {
+    color:#3C5E74;
+}
