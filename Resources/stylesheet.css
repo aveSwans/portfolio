@@ -13,21 +13,22 @@ nav {
     z-index: 1;
     align-content: center;
     background-color: #E6E5E8;
+    box-shadow: 0 5px #142937;
 }
 
 .namePlate {
-    margin-left: 1rem;
+    margin-left: 2rem;
     color: #3C5E74
 }
 
 .links {
     margin-left: auto;
-    margin-right: 1rem;
+    margin-right: 2rem;
     list-style-type: none;
     display: inline-flex;
     justify-content: space-between;
     align-content: center;
-    width: 33%;
+    min-width: 33%;
 }
 
 .links li {
@@ -42,3 +43,4 @@ a {
 a:hover {
     color: #FFB186;
 }
+
