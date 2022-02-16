@@ -1,3 +1,9 @@
+* {
+    color: #3C5E74;
+}
+
+/*Nav Bar*/
+
 body {
     margin: 0;
     background-color: #3A3D39;
@@ -14,6 +20,8 @@ nav {
     align-content: center;
     background-color: #E6E5E8;
     box-shadow: 0 5px #142937;
+    position: fixed;
+    height: 4em;
 }
 
 .namePlate {
@@ -36,7 +44,6 @@ nav {
 }
 
 a {
-    color:#3C5E74;
     text-decoration: none;
 }
 
@@ -44,3 +51,36 @@ a:hover {
     color: #FFB186;
 }
 
+/*positioning*/
+main {
+    padding-top: 4em;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(12, 4em);
+    gap: 2%;
+}
+
+/*Jumbotron*/
+
+.jumbotron {
+    display: flex;
+    width: 80%;
+    background-color: #E6E5E8;
+    justify-self: center;
+    grid-column: 2 / 12;
+    grid-row: 2 / 7;
+}
+
+.jumbotron ul {
+    list-style-type: none;
+}
+
+/*picture*/
+
+.me {
+    background-image: url(images/ave-sarah-favs-66.jpg);
+    grid-column: 8 / 12;
+    grid-row: 2 / 8;
+    background-size: cover;
+    border-radius: 50%;
+}
